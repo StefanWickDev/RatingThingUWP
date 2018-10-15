@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="RatingThing.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RatingThing"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid >
+        <Viewbox Margin="24">
+            <StackPanel>
+                <RatingControl x:Name="ratingControl" IsEnabled="False"/>
+                <TextBlock Text="Rate Your Experience"/>
+                <Button x:Name="btnSubmit" Margin="12" IsEnabled="False" Content="Submit" Click="btnSubmit_Click" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Viewbox>
+    </Grid>
+</Page>
