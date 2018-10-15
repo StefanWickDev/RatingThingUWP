@@ -23,7 +23,7 @@ namespace RatingThing
     public sealed partial class MainPage : Page
     {
         DeviceClient iotHubClient = null;
-        string connectionString = "HostName=swickFreeHub.azure-devices.net;DeviceId=RatingThingPi;SharedAccessKey=lucX+ap+24loV+nGGZi+++/xw9eFHiKHczK6y/513d8="; // optionally hard-code your device connection string here
+        string connectionString = ""; // optionally hard-code your device connection string here
 
         public MainPage()
         {
